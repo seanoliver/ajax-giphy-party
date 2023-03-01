@@ -4,9 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+
+  <style>
+    .form-container {
+      display: flex;
+      justify-items: space-around;
+    }
+  </style>
 </head>
 
 <body>
+  <h1>Giphy Party</h1>
+
+
+  <div class="form-container">
+    <div class="search-box">
+      <input id="search-term"
+              name="search-term"
+              placeholder="Enter a search term">
+    </div>
+    <div class="button">
+      <button id="search-giphy">Search Giphy!</button>
+    </div>
+    <div class="button">
+      <button id="clear-all">Remove Images</button>
+    </div>
+  </div>
+
+  <div class="gif-gallery">
+
+  </div>
 
 <script src="https://unpkg.com/jquery"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
