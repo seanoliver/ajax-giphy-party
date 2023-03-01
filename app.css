@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+/* ========================================================================== */
+/* Form                                                                       */
+/* ========================================================================== */
+
+.form-container {
+    display: flex;
+    justify-items: space-around;
+}
+
+
+/* ========================================================================== */
+/* GIF Gallery                                                                */
+/* ========================================================================== */
+
+#gif-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gif-item {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.gif-item p {
+    position: absolute;
+    top: 10px;
+    padding: 10px 0px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    font-family: 'Mynerve', cursive;
+    opacity: 50%;
+}
